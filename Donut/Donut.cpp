@@ -113,7 +113,7 @@ void Donut(float A, float B)
 		}
 
 		A += 0.02;
-		B += 0.07;
+		B += 0.02;
 	}
 
 
@@ -126,7 +126,7 @@ void Donut(float A, float B)
 
 void main()
 {
-	float A = 1, B = 1;
+	float A = 0, B = 0;
 
 	Donut(A, B);
 
