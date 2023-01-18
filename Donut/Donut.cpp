@@ -77,7 +77,7 @@ void Donut(float A, float B)
 	const float R2 = 2;
 	const float K2 = 5;
 
-	const float K1 = /*65*/(screenwidth * K2 * 3 / (8 * (R1 + R2)))/2;
+	const float K1 = (screenwidth * K2 * 3 / (8 * (R1 + R2)))/2;
 
 	char** output = CreateOutput(screenwidth, screenheight);
 	float** zbuffer = CreateBuffer(screenwidth, screenheight);
